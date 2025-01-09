@@ -17,6 +17,7 @@ data = {
     "apply_to": apply_to,
     "for_position": for_position,
     "major": major,
+    "degree": degree,
     "school": school,
     "position": position,
     "company": company,
