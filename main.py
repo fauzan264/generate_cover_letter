@@ -1,31 +1,40 @@
 from functions import utils
+from dotenv import load_dotenv
+import os
 
-# apply to
-apply_to = "Shopee"
-for_position = "Backend"
-# school
-major = "Informatics Engineering"
-degree = "Bachelor’s degree" # bebas, bahasa inggris atau indo tergantung template
-school = "Universitas Mercu Buana"
-# previous position
-position = "Tech Support"
-company = "GoTo Logistics"
-# your full name
-full_name = "Ahmad Fauzan"
+def main():
+    load_dotenv()
 
-data = {
-    "apply_to": apply_to,
-    "for_position": for_position,
-    "major": major,
-    "degree": degree,
-    "school": school,
-    "position": position,
-    "company": company,
-    "full_name": full_name
-}
+    # apply to
+    apply_to = "PT Prakarsa Alam Segar"
+    for_position = "IT Staff"
 
-# for row in csv_reader:
-template = utils.load_file()
-description = template.format(**data)
+    # school
+    major = os.getenv("MAJOR")
+    degree = os.getenv("DEGREE") # bebas, bahasa inggris atau indo tergantung template
+    school = os.getenv("SCHOOL")
+    # previous position
+    position = os.getenv("POSITION")
+    company = os.getenv("COMPANY")
+    # your full name
+    full_name = os.getenv("FULL_NAME")
 
-utils.save_file(description)
+    data = {
+        "apply_to": apply_to,
+        "for_position": for_position,
+        "major": major,
+        "degree": degree,
+        "school": school,
+        "position": position,
+        "company": company,
+        "full_name": full_name
+    }
+
+    # for row in csv_reader:
+    template = utils.load_file()
+    description = template.format(**data)
+
+    utils.save_file(description)
+
+if __name__ == "__main__":
+    main()
