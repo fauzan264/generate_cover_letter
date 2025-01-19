@@ -1,8 +1,8 @@
-Dear HR Shopee,
+Dear HR Sea Labs,
 
-I am writing to express my interest in the Backend position at Shopee. With a Bachelor’s degree at Universitas Mercu Buana and experience in PHP framework-based web development, system monitoring, and creating Python scripts for data manipulation using GraphQL and REST APIs, I am eager to bring my technical skills to your team.
+I am writing to express my interest in the Back End Engineer position at Sea Labs. With a Bachelor’s degree at Universitas Mercu Buana and experience in PHP framework-based web development, system monitoring, and creating Python scripts for data manipulation using GraphQL and REST APIs, I am eager to bring my technical skills to your team.
 
-In my current role as Tech Support at GoTo Logistics, I have successfully ensured smooth system operations, managed goods migration, and supported order delivery processes. My ability to problem-solve and adapt quickly has consistently contributed to operational efficiency.
+In my current role as Tech Support Engineer at ByteDance - GoTo Logistics, I have successfully ensured smooth system operations, managed goods migration, and supported order delivery processes. My ability to problem-solve and adapt quickly has consistently contributed to operational efficiency.
 
 Thank you for considering my application. I look forward to the opportunity to discuss how my skills align with your needs.
 

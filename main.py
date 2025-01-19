@@ -6,16 +6,18 @@ def main():
     load_dotenv()
 
     # apply to
-    apply_to = "PT Prakarsa Alam Segar"
-    for_position = "IT Staff"
+    apply_to = "Sea Labs"
+    for_position = "Back End Engineer"
 
     # school
     major = os.getenv("MAJOR")
-    degree = os.getenv("DEGREE") # bebas, bahasa inggris atau indo tergantung template
+    degree = os.getenv("DEGREE") # free, english or indonesian depending on template
     school = os.getenv("SCHOOL")
+    
     # previous position
     position = os.getenv("POSITION")
     company = os.getenv("COMPANY")
+
     # your full name
     full_name = os.getenv("FULL_NAME")
 
